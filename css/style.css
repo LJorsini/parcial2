@@ -1,0 +1,42 @@
+/* body {
+    color: white;
+} */
+#seccion-1 {
+    height: 100vh;
+    background-image: url(../img//Edificio/edificio6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.titulos {
+    text-align: center;
+    
+}
+
+.margin-parrafo {
+    margin: 1rem;
+}
+
+.margin-body {
+    margin: 4rem;
+}
+
+.contenido-seccion2 {
+    height: 100vh;
+    background-image: url(../img/compu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contenido-seccion-3 {
+    height: 100vh;
+    background-image: url(../img/historia2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.redes-sociales {
+    list-style: none;
+    display: flex;
+    
+}

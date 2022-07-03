@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Boostrap-->
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="./lib/fontawesome/css/all.min.css">
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Nabvar-->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Seccion 1-->
+    <section id="seccion-1" class="container-fluid">
+        <div class="row">
+            <div class="col-6">LOGO EMPRESA</div>
+            <div class="col-6">Animacion empresa</div>
+        </div>
+    </section>
+
+    <section id="seccion-2" class="container-fluid">
+        <h1 class="titulos">QUE SIGNIFICA DESARROLLAR SOFTWARE</h1>
+        <div class="row contenido-seccion2">
+            
+            <div class="col-6 ">
+                <p class="margin-parrafo">El Software es el soporte lógico de cualquier dispositivo (computadora o celular)
+                    y permiten la realización de tareas específicas, es lo contrario a los componentes
+                    físico que son llamados Hardware. La interacción entre el Software y el
+                    Hardware hacen que cualquier dispositivo pueda funcionar correctamente ya
+                    que el software envía ordenes que el hardware ejecuta.
+                </p>
+
+                <p class="margin-parrafo">El Desarrollo de Software es el proceso de analizar, codificar, implementar y
+                    crear aplicaciones/programas para Computadoras, Tablet y Celulares
+                    basándose en las necesidades del Usuario que las va a utilizar.
+                </p>
+            </div>
+            <div class="col-6 ">
+                <p class="margin-parrafo">Una Aplicación o Programa de Aplicación es un conjunto de instrucciones
+                    escritas en algún Lenguaje de Programación y que ejecutadas secuencialmente
+                    resuelven un problema específico.
+                </p>
+
+                <p class="margin-parrafo">
+                    Una Aplicación o Programa de Aplicación es un conjunto de instrucciones
+                    escritas en algún Lenguaje de Programación y que ejecutadas secuencialmente
+                    resuelven un problema específico.
+
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="seccion-3" class="container-fluid">
+        <h2 class="titulos">NUESTRA HISTORIA</h2>
+        <div class="row contenido-seccion-3">
+            <div class="col-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet blanditiis officia fuga praesentium cupiditate rem cum modi obcaecati accusantium tenetur corporis maxime quasi assumenda voluptas soluta minus accusamus, ipsam neque.</div>
+            <div class="col-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta culpa beatae itaque adipisci tempore voluptas corrupti dolores, ipsum cum quis esse? Quis pariatur voluptatum quo optio nulla in modi! Veniam.</div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="row container-fluid">
+            <h2>Nuestras redes</h2>
+            <div class="col-6">
+                <ul class="redes-sociales d-flex justify-content-around">
+                    <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-square"></i></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=3562504877" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                
+                    <form class="formulario-contacto">
+                        <div class="mb-3">
+                          <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
+                          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su nombre y apellido">
+                        </div>
+          
+                        <div class="mb-3">
+                          <label for="exampleFormControlInput1" class="form-label">Ingrese su e-mail</label>
+                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su E-mail">
+                        </div>
+          
+                        <div class="mb-3">
+                          <label for="exampleFormControlInput1" class="form-label">Ingrese su Nº de telefono</label>
+                          <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su Nº de telefono">
+                        </div>
+          
+                        <div class="mb-3">
+                          <label for="exampleFormControlTextarea1" class="form-label">Envianos tu consulta</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribí tu consulta acá" rows="3"></textarea>
+                        </div>
+          
+                        <div class="boton d-flex justify-content-end">
+                          <input type="submit" class="btn btn-primary "></input>
+                        </div>
+                        
+                      </form>
+                
+            </div>
+        </div>
+    </footer>
+
+    <!--Script Bootstrap-->
+    <script src="./lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="./lib/fontawesome/js/all.min.js">
+
+</body>
+
+</html>
