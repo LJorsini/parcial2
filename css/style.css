@@ -1,6 +1,7 @@
-/* body {
-    color: white;
-} */
+* {
+    margin: 0;
+    padding: 0;
+}
 #seccion-1 {
     height: 100vh;
     background-image: url(../img//Edificio/edificio6.jpg);
@@ -35,8 +36,37 @@
     background-repeat: no-repeat;
 }
 
-.redes-sociales {
+.redes-sociales, .redes-sociales-2 {
     list-style: none;
-    display: flex;
     
+    
+}
+
+.img-carrousel-1 {
+    height: 100vh;
+    background-image: url('../img/carrousel/carrousel1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-carrousel-2 {
+    height: 100vh;
+    background-image: url(../img/carrousel/cliente1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-carrousel-3 {
+    height: 100vh;
+    background-image: url(../img/carrousel/cliente2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#seccion-4 {
+    height: 100vh;
+}
+
+.contacto a {
+    text-decoration: none;
 }
