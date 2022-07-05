@@ -21,7 +21,6 @@ body {
 }
 
 .margin-parrafo {
-    color: #2124b1;
     margin: 1rem;
 }
 
@@ -32,10 +31,13 @@ body {
 .parrafo-historia {
     line-height: 1.7;
 }
+#seccion-3 {
+    height:100vh ;
 
+}
 .contenido-seccion2 {
     height: 100vh;
-    background-image: url(../img/compu.jpg);
+    background-image: url(../img/contacto2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -110,3 +112,4 @@ body {
     font-size: 1.8rem;
     text-decoration: none;
 }
+
