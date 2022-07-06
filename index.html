@@ -26,9 +26,53 @@
 </head>
 
 <body>
-
+    <header>
+        <!-- <section id="seccion-1" class="container-fluid"> -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img class="img-logo" src="./img/Logo/logo1.jpg" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#seccion-2">Nuestro Trabajo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#seccion-3">Historia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#carrousel-clientes">Clientes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#seccion-4">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- <div class="row">
+                <div class="col-6"></div>
+                <div class="col-6"></div>
+            </div> -->
+        <!-- </section> -->
+    </header>
     <!--Seccion 1-->
     <section id="seccion-1" class="container-fluid">
+        <div class="row efecto">
+            <div class="col-6 parrafo">
+                <span class="spam-animacion">CODIFICAMOS EL FUTURO DE TU EMPRESA</span>
+                
+            </div>
+        </div>
+        
+    </section>
+    
+    
+    <!-- <section id="seccion-1" class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img class="img-logo" src="./img/Logo/logo1.jpg" alt=""></a>
@@ -43,7 +87,10 @@
                             <a class="nav-link active" aria-current="page" href="#seccion-2">Nuestro Trabajo</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#seccion-3">Historia y Clientes</a>
+                            <a class="nav-link active" href="#seccion-3">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#carrousel-clientes">Clientes</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="#seccion-4">Contacto</a>
@@ -52,19 +99,25 @@
                 </div>
             </div>
         </nav>
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-6"></div>
             <div class="col-6"></div>
-        </div>
-    </section>
+        </div> -->
+    <!-- </section> --> 
 
+    
+    
+    
+    
+    
+    <!--Seccion 2-->
     <section id="seccion-2" class="container-fluid">
         
         <div class="row contenido-seccion2">
             
             <div class="col-6 ">
-                <h2 class="mt-2">¿Que hace un desarrollador?</h2>
-                <p>El desarrollador es una persona que se dedica a dar respuestas a las necesidades de
+                <h2 class="mt-2 h-blanco">¿Que hace un desarrollador?</h2>
+                <p class="parrafo-blanco">El desarrollador es una persona que se dedica a dar respuestas a las necesidades de
                     las personas en el sector Informático. Estos son capaces en desempeñar
                     cualquier rol dentro del Desarrollo de Software.</p>
                 <div class="accordion" id="accordionExample">
@@ -82,20 +135,16 @@
                     </div>
                     
                 </div>
-
-                
-                
-                
             </div>
             <div class="col-6 ">
-                <h2 class="mt-2">Desarrollo de Software</h2>
-                <p>Desarrollamos software a la medida de cada necesidad con CALIDAD,
+                <h2 class="h-blanco mt-2">Desarrollo de Software</h2>
+                <p class="parrafo-blanco">Desarrollamos software a la medida de cada necesidad con CALIDAD,
                      RAPIDEZ e INNOVACION, agregando valor a partir de nuestra experiencia para lograr una solución óptima.</p>
                 <div class="accordion " id="accordionExample">
                     <div class="accordion-item mb-2">
                       <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            APLICACIONES DE ESCRITORIO
+                           <p class="">APLICACIONES DE ESCRITORIO</p>
                         </button>
                       </h2>
                       <div id="collapseOne" class="accordion-collapse collapse collapsed" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -128,35 +177,19 @@
                       </h2>
                       <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                           <p>APLICACIONES PARA DISPOSITIVOS MOVILES: Son las que se
+                           <p>Son las que se
                             encuentran instaladas en teléfonos Inteligentes, Tablet, y otros
                             dispositivos móviles.</p> 
                         </div>
                       </div>
                     </div>
                   </div>
-                <!-- 
-                <p class="margin-parrafo">APLICACIONES DE ESCRITORIO: Son las que se encuentran instaladas
-                    en los ordenadores como Notebook, Netbooks y PC de Escritorio y no
-                    necesitan de internet para funcionar. 
-                </p>
-
-                <p class="margin-parrafo">
-                    APLICACIONES WEB: Son las que se encuentran alojadas en un
-                    Servidor Web y se necesita de Internet y un Navegador para poder
-                    acceder a ellas.
-                </p>
-
-                <p class="margin-parrafo">
-                    APLICACIONES PARA DISPOSITIVOS MOVILES: Son las que se
-                    encuentran instaladas en teléfonos Inteligentes, Tablet, y otros
-                    dispositivos móviles
-                </p> -->
             </div>
         </div>
 
     </section>
 
+    <!--Seccion 3-->
     <section id="seccion-3" class="">
         <h1 class="text-center mt-5">NUESTRA HISTORIA</h1>
         <div class="row margin-parrafo">
@@ -186,7 +219,38 @@
             
             
         </div>
+
+        
     </section>
+
+    <div id="carrousel-clientes">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active img-carrousel-1">
+                <!--Background image-->
+              </div>
+              <div class="carousel-item img-carrousel-2">
+                <!--Background image-->
+              </div>
+              <div class="carousel-item img-carrousel-3">
+                <!--Background image-->
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
 
     <section id="seccion-4">
         <div class="row container-fluid">

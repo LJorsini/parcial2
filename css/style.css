@@ -42,12 +42,12 @@ body {
     background-repeat: no-repeat;
 }
 
-.contenido-seccion-3 {
+/* .contenido-seccion-3 {
     height: 100vh;
     background-image: url(../img/historia2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 
 .redes-sociales, .redes-sociales-2 {
     list-style: none;
@@ -111,5 +111,40 @@ body {
     margin-left: 2rem;
     font-size: 1.8rem;
     text-decoration: none;
+}
+
+.parrafo-blanco, .h-blanco {
+    color: #9c9c9c;
+    /* color: white; */
+}
+
+.carrousel-clientes {
+    /* height: 100vh; */
+}
+
+.parrafo {
+    margin-top: 7rem;
+    margin-left: 7rem;
+}
+
+.spam-animacion {
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 37ch;
+    animation: typing 4s steps(37),
+    blink .5s infinite step-end alternate; 
+    overflow: hidden; 
+    
+}
+
+@keyframes typing {
+    from {width: 0;}
+}
+
+@keyframes blink {
+    50% { border-color: transparent;}
 }
 
