@@ -34,12 +34,7 @@ body {
     height:100vh ;
 
 }
-/* .contenido-seccion2 {
-    height: 100vh;
-    background-image: url(../img/contacto2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
+
 #seccion-2 {
     height: 100vh;
     background-image: url(../img/contacto2.jpg);
@@ -166,4 +161,25 @@ body {
     50% { border-color: transparent;}
 }
 
+@media only screen and (min-width:604px) and (max-width: 855px) {
+    .parrafo-blanco {
+        font-size: 10px;
+    }
+
+    .seccion-historia {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width: 604px) {
+    .seccion-historia {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width: 614px) {
+    .parrafo-blanco, .h2-blanco {
+        display: none;
+    }
+}
 
