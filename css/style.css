@@ -4,20 +4,19 @@
 }
 
 body {
-    /* font-family: 'Roboto', sans-serif; */
     font-family: 'Jost', sans-serif;
 }
+
 #seccion-1 {
     height: 100vh;
     background-image: url(../img//Edificio/edificio7.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    /* background-color: #2124b1; */
 }
+
 .titulos {
     text-align: center;
-    
 }
 
 .margin-parrafo {
@@ -35,36 +34,33 @@ body {
     height:100vh ;
 
 }
-.contenido-seccion2 {
+/* .contenido-seccion2 {
+    height: 100vh;
+    background-image: url(../img/contacto2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+#seccion-2 {
     height: 100vh;
     background-image: url(../img/contacto2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-/* .contenido-seccion-3 {
-    height: 100vh;
-    background-image: url(../img/historia2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
-
 .redes-sociales, .redes-sociales-2 {
     list-style: none;
-    
-    
 }
 
 .img-carrousel-1 {
     height: 100vh;
-    background-image: url(../img/carrousel/carrousel1.jpg);
+    background-image: url(../img/carrousel/cliente4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .img-carrousel-2 {
     height: 100vh;
-    background-image: url(../img/carrousel/cliente1.jpg);
+    background-image: url(../img/carrousel/cliente3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -76,14 +72,28 @@ body {
     background-repeat: no-repeat;
 }
 
+.img-carrousel-4 {
+    height: 100vh;
+    background-image: url(../img/carrousel/cliente6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .img-logo {
     width: 100px;
     height: 50px;
 }
 
 #seccion-4 {
-    /* height: 150vh; */
     background-image: url(../img/contacto3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#seccion-3 {
+    height:100vh;
+    background-image: url('../img//historia3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -94,16 +104,14 @@ body {
 }
 
 .footer {
-    text-align: center;
     color: white;
     background-color: black;
-    height: 300px;
+    height: 250px;
 }
 
 .redes-sociales a i {
     color: #fffafa;
     font-size: 3rem;
-    
 }
 
 .contenedor-contacto a {
@@ -114,13 +122,8 @@ body {
 }
 
 .parrafo-blanco, .h-blanco {
-    color: #9c9c9c;
-    /* color: white; */
+     color: white;
 }
-
-/* .carrousel-clientes {
-    height: 100vh;
-} */
 
 .padding-top-5 {
     padding-top: 5em;
@@ -145,11 +148,14 @@ body {
     display: block;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 37ch;
-    animation: typing 4s steps(37),
+    width: 38ch;
+    animation: typing 4s steps(38),
     blink .5s infinite step-end alternate; 
     overflow: hidden; 
-    
+}
+
+.texto-carrousel {
+    color: black;
 }
 
 @keyframes typing {
@@ -159,4 +165,5 @@ body {
 @keyframes blink {
     50% { border-color: transparent;}
 }
+
 
